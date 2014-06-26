@@ -11,12 +11,21 @@ AGT.Prologue=<div align="center"><b>{AGT.Prologue.Heading}</b><br /></div><br />
 
 AGT.Prologue.Heading={AGT.Title}<br/>as of: {AGT.Effective.YMD}<br/>between {Pcpl.ID.Name} and {Cttr.ID.Name}
 
-AGT.Prologue.Intro={AGT.Prologue.ThisAgreement}<ul style="list-style-type: none;"><li>{AGT.Prologue.Recital}</li></ul>{AGT.Prologue.NowTherefore}
+AGT.Prologue.Intro={AGT.Prologue.ThisAgreement}<ul style="list-style-type: none;"><li>{AGT.Prologue.Recital}</li></ul>{AGT.Prologue.NowTherefore}:
+
+AGT.Prologue.ThisAgreement=This {AGT.Title} ({Agreement.Defined}) is entered into as of {AGT.Effective.YMD} by and between {@1.ID.N,E,A} ("{@1}") and {@2.ID.N,E,A} ("{@2}") (collectively, the "{parties}"). 
+
+AGT.Prologue.NowTherefore=NOW THEREFORE, in consideration of the premises and promises of {this Agreement}, the {parties} hereby agree
 
 AGT.Signature={AGT.Signature.Witness}<br/>{AGT.Signature.Block}
 
 AGT.Signature.Witness=IN WITNESS WHEREOF, the parties have executed {this Agreement} as of {AGT.Effective.YMD}.
 
+Agreement.Defined=this "Agreement"
+
+This Agreement=this Agreement
+
 this Agreement=this Agreement
+
 
 </field>
