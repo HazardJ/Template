@@ -1,0 +1,18 @@
+<binder>
+AGT_Frame
+</binder>
+
+<field>
+Doc.Body={Doc.Body.AGT}
+
+Doc.Body.AGT=<div>{AGT.Prologue}<ol><li>{AGT._Secs}</li></ol>{AGT.Signature}<div>{AGT.Attachment}<br></div>
+
+AGT.Prologue=<div align="center"><b>{AGT.Prologue.Heading}</b><br /></div><br />{AGT.Prologue.Intro}
+
+AGT.Prologue.Heading={AGT.Title}<br/>as of: {AGT.Effective.YMD} ("{Effective Date}") <br/>between {Pcpl.ID.Name} and {Cttr.ID.Name}
+
+AGT.Prologue.Intro={AGT.Prologue.ThisAgreement}<ul style="list-style-type: none;"><li>{AGT.Prologue.Recital}</li></ul>{AGT.Prologue.NowTherefore}
+
+AGT.Signature={Signature.Witness}<br/>{Signature.Block}
+
+</field>
